@@ -1,0 +1,90 @@
+[INFO ] 16:58:28.622 c.d.hello.preword.PrewordApplication - Starting PrewordApplication using Java 17.0.4.1 on DESKTOP-9IHPQNM with PID 16244 (C:\Users\aischool\eclipse-workspace\preword\bin\main started by aischool in C:\Users\aischool\eclipse-workspace\preword)
+[INFO ] 16:58:28.622 c.d.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 16:58:28.715 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dori.hello.preword]' package. Please check your configuration.
+[INFO ] 16:58:28.738 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:58:28.738 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:28.743 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:58:28.743 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 16:58:28.756 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:58:28.756 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 132 ms
+[INFO ] 16:58:28.820 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:58:28.824 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:28.828 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:58:28.832 c.d.hello.preword.PrewordApplication - Started PrewordApplication in 0.244 seconds (JVM running for 194.629)
+[INFO ] 16:58:28.833 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 16:58:35.067 c.d.hello.preword.PrewordApplication - Starting PrewordApplication using Java 17.0.4.1 on DESKTOP-9IHPQNM with PID 16108 (C:\Users\aischool\eclipse-workspace\preword\bin\main started by aischool in C:\Users\aischool\eclipse-workspace\preword)
+[INFO ] 16:58:35.068 c.d.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 16:58:35.102 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 16:58:35.103 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN ] 16:58:35.497 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dori.hello.preword]' package. Please check your configuration.
+[INFO ] 16:58:35.792 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:58:35.798 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:35.799 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:58:35.799 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 16:58:35.909 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:58:35.909 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 806 ms
+[WARN ] 16:58:36.274 o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 16:58:36.288 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 16:58:36.291 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO ] 16:58:36.295 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:36.296 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 16:58:36.299 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:36.300 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR] 16:58:36.323 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 16:58:53.159 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 16:58:53.168 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:53.169 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 16:58:53.170 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:58:53.171 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:59:03.905 c.d.hello.preword.PrewordApplication - Starting PrewordApplication using Java 17.0.4.1 on DESKTOP-9IHPQNM with PID 16680 (C:\Users\aischool\eclipse-workspace\preword\bin\main started by aischool in C:\Users\aischool\eclipse-workspace\preword)
+[INFO ] 16:59:03.906 c.d.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 16:59:03.938 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 16:59:03.938 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN ] 16:59:04.323 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dori.hello.preword]' package. Please check your configuration.
+[INFO ] 16:59:04.609 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:59:04.615 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:59:04.615 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:59:04.616 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 16:59:04.739 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:59:04.739 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+[INFO ] 16:59:05.121 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:59:05.133 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:59:05.149 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:59:05.163 c.d.hello.preword.PrewordApplication - Started PrewordApplication in 1.552 seconds (JVM running for 2.167)
+[INFO ] 17:01:37.150 o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] 17:01:37.173 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:01:37.173 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 17:01:37.178 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:01:37.179 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:01:37.226 c.d.hello.preword.PrewordApplication - Starting PrewordApplication using Java 17.0.4.1 on DESKTOP-9IHPQNM with PID 16680 (C:\Users\aischool\eclipse-workspace\preword\bin\main started by aischool in C:\Users\aischool\eclipse-workspace\preword)
+[INFO ] 17:01:37.226 c.d.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:01:37.373 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dori.hello.preword]' package. Please check your configuration.
+[INFO ] 17:01:37.421 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:01:37.422 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:01:37.422 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:01:37.422 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 17:01:37.439 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:01:37.439 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 211 ms
+[INFO ] 17:01:37.574 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:01:37.583 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:01:37.586 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:01:37.593 c.d.hello.preword.PrewordApplication - Started PrewordApplication in 0.387 seconds (JVM running for 154.597)
+[INFO ] 17:01:37.595 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:02:14.529 o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] 17:02:14.541 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:02:14.541 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 17:02:14.542 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:02:14.543 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
