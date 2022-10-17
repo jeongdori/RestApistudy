@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/board_study?serverTimeZone=UTF&CharacterEncoding=UTF-8
+    username: root
+    password : wjdtudel!@12
+    
+  thymeleaf:
+    cache: false
