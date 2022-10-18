@@ -28,8 +28,9 @@ public class BoardController {
 	@GetMapping("/board/list")
 	public String getBoardListPage(Model model, 
 			@RequestParam(required = false, defaultValue = "0") Integer page,
-			@RequestParam(required = false, defaultValue = "5" ) Integer size)
+			@RequestParam(required = false, defaultValue = "10" ) Integer size)
 	throws Exception {
+		
 		try {
 			model.addAttribute("resultMap", boardService.findAll(page, size));
 		} catch (Exception e) {
