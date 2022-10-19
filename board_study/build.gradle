@@ -32,6 +32,9 @@ dependencies {
 	
 	//타임리프 Layout
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+	
+	//지정파일명 랜덤 문자열 생성
+	implementation 'org.apache.commons:commons-lang3'
 }
 
 tasks.named('test') {
